@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form.html -->
+
+<form method="POST" action="/save_user">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required>
+  
+    <label for="mobile">Mobile No:</label>
+    <input type="text" name="mobile" id="mobile" required>
+  
+    <label for="age">Age:</label>
+    <input type="text" name="age" id="age" required>
+  
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+  
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+  
+    <button type="submit">Submit</button>
+  </form>
+  
+</body>
+</html>
